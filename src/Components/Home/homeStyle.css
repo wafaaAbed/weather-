@@ -1,0 +1,76 @@
+.mainContainer{
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/bg.jpg");
+  background-size: 100% 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.selectCity{
+  width: 70%;
+  height: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center !important;
+  margin: 20px auto;
+}
+.selectCity .selecting{
+  padding: .7rem 1rem;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 300px !important;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  border: 2px solid rgb(162, 162, 162);
+  width: 70%;
+  height: 350px;
+  margin: 0px auto;
+  border-radius: 10px;
+  background-color: rgba(237, 237, 237, 0.537);
+  position: relative;
+}
+.content div{
+  width: 50%;
+
+}
+.sunImage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.weatherInfo{
+  padding-top: 50px;
+  padding-left: 20px;
+  line-height: 30px;
+  font-size: large;
+  border-left: 1px solid gray;
+}
+.days{
+  
+  width: 100%;
+  position: absolute;
+  bottom: -80px;
+  left: 25%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.days section{
+  width: 120px;
+  height: 135px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 15px ;
+  border: 1px solid gray;
+  background-color: rgba(237, 237, 237, 0.726);
+
+}
